@@ -1,0 +1,49 @@
+body {
+  margin: 0px;
+}
+.roundedBox {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+.roundedLink {
+  align-content: "center";
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 1px 1px 2px 1px rgba(128, 128, 128, 0.4);
+  width: inherit;
+  height: inherit;
+  transition: all;
+  transition-duration: 300ms;
+  transition-timing-function: ease;
+  cursor: pointer;
+}
+.roundedLink:hover {
+  background-color: transparent;
+  color: white;
+  transform: translateX(-5px);
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.leftBg {
+  height: 98%;
+}
+
+#metadiv {
+  scrollbar-arrow-color: #5151fd;
+  scrollbar-width: 1px;
+}
+
+@keyframes slotanimation {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(0px, -1000px);
+  }
+}
